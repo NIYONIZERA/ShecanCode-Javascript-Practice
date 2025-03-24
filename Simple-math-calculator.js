@@ -8,4 +8,4 @@ console.log('Sum:', sum);
 console.log('Difference:', diff);
 console.log('Product:',product );
 console.log('Quotient:', quotient);
-console.log(`The sum of ${a} and ${b} is ${sum},The difference of ${a} and ${b} is ${diff},The product of ${a} and ${b} is ${product},The quotient of ${a} and ${b} is ${quotient} `);
+console.log(`The sum of ${a} and ${b} is: ${sum},The difference of ${a} and ${b} is: ${diff},The product of ${a} and ${b} is: ${product},The quotient of ${a} and ${b} is: ${quotient} `);
