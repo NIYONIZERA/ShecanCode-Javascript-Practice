@@ -54,6 +54,20 @@ const average=student.reduce((sum,studen)=>sum+studen.grade/student.length,0)
 console.log("THE AVERAGE GRADE OF ALL STUDENTS IS:");
 console.log(average);
 
+// Track Passed Students Using a Closure (Students with a grade above 50)
+
+function createPassTracker(minGrade){
+    return function(student){
+        return student.filter((s)=>s.grade>minGrade)
+    }
+}
+const trackPassedStudent=createPassTracker(50);
+console.log("THE STUDENTS WITH GRADE ABOVE 50 ARE:");
+console.log(trackPassedStudent(student));
+
+
+
+
 
 
 
